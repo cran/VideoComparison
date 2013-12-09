@@ -1,0 +1,2 @@
+useDynLib(VideoComparison)
+export(VideoComparison,VideoDistance,ExtractMotion,ExtractImgPos,ExtractImgHash,VideoSearch,VideoMatch,Compare2Videos)

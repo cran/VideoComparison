@@ -1,0 +1,47 @@
+v0.9-4.- 2013.12.09
+		DESCRIPTION
+			Added Rcpp dependence
+		VideoDistance.cpp
+			Using Rcpp
+v0.9-3.- 2013.12.05
+		VideoDistance.cpp
+			Changed order of includes to avoid OS X include conflict
+v0.9.- 2013.12.03
+		Updated DESCRIPTION
+			ChangeLog moved to a separate file
+			Updated Description
+		Enforced CRAN policies:
+			Examples under 100 characters per line
+			Examples limited to 1 process
+		Enforced -cstd99 compilation
+			Moved longlong handling to a separate c file
+		Added citation to all the .Rd files
+		Created CITATION file
+v0.8.-
+		/
+			Changed database reference to a generic one
+		DESCRIPTION & man/VideoComparison-package.Rd
+			Added reference to Conference paper
+		VideoComparison.R & .Rd:
+			Unobscured process number argument
+v0.7.-
+		VideoComparison.R:
+			Fixed swapped args for fastpart2partcc
+v0.6.- 
+	VideoDistance.cpp:
+		Fixed memory leak
+		Removed phash dependency
+	VideoComparison.R:
+		Improved part2part method
+		Parallelized
+	VideoComparison.Rd:
+		Fixed returned object explanation
+	ExtractImage.Rd:
+		Fixed example
+	data/:
+		Standalone examples provided
+	man/:
+		Added documentation for examples
+		Changed examples
+v0.3.-Fixes the stack error message because of UNPROTECT 
+      and the meaning of score.

@@ -1,0 +1,37 @@
+citHeader("To cite package 'VideoComparison' in publications use:")
+
+citEntry(
+	entry= "TechReport",	
+	title="Video Comparison based on motion vectors and key image hashes",
+	author=personList(	person(family="Ordieres-Mer{\\'e}",given="J."),
+					 	person(family="Espinosa-G{\\'u}tiez",given="S."),
+					 	person(family="Bello-Garc{\\'i}a",given="A."),
+					 	person(family="P{\\'e}rez-Ramos",given="J.M.")),
+	institution="Universidad Polit{\\'e}cnica de Madrid and Universidad de Oviedo",
+	address = "Jos{\\'e} Guti{\\'e}rrez Abascal 2, 28006 Madrid, Spain",
+	year = sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE),
+	note = meta$Version,
+	url = "http://www.asasec.eu",
+	publisher="Advisory System Against Sexual Exploitation of Children (ASASEC) Project (HOME/2010/ISEC/AG/043)",
+	textVersion="Ordieres-Mere, J., Espinosa-Gutiez, S., Bello-Garcia, A., Perez-Ramos, J.M.:
+	Video Comparison based on motion vectors and key image hashes.
+Advisory System Against Sexual Exploitation of Children (ASASEC) (HOME/2010/ISEC/AG/043).
+http://www.asasec.eu"
+)
+
+citEntry(
+	entry="inproceedings",
+	author=personList(	person(family="Ordieres-Mer{\\'e}",given="J."),
+				 	person(family="Espinosa-G{\\'u}tiez",given="S."),
+				 	person(family="Bello-Garc{\\'i}a",given="A.")),
+	title="Large scale part-to-part video matching by a likelihood function using featured based video representation",
+	booktitle="TAMIDA 2013 - Taller de Miner{\\'i}a de Datos dentro del IV congreso Espa{\\~n}ol de Inform{\\'a}tica.",
+	year=2013,
+	pages="254-257",
+	document_type="Conference Paper",
+	url="http://bioinspired.dacya.ucm.es/maeb2013/images/ActasCAEPIA_final.pdf",
+	textVersion="Espinosa-Gutiez, S., Ordieres-Mere, J., Bello-Garcia, A.: Large scale part-to-part video matching by a 
+   likelihood function using featured based video representation. TAMIDA 2013 - Taller de Mineria de Datos dentro del IV 
+   congreso Espanol de Informatica. 254-257 (2013). http://bioinspired.dacya.ucm.es/maeb2013/images/ActasCAEPIA_final.pdf"
+)
+
