@@ -1,2 +1,3 @@
 useDynLib(VideoComparison)
+import(RJSONIO,Rcpp,RCurl,pracma,zoo)
 export(VideoComparison,VideoDistance,ExtractMotion,ExtractImgPos,ExtractImgHash,VideoSearch,VideoMatch,Compare2Videos)

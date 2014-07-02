@@ -1,3 +1,6 @@
+v0.10.- 2014.07.02
+		VideoDistance.cpp
+			FIXED Radial distance inversion fixed
 v0.9-4.- 2013.12.09
 		DESCRIPTION
 			Added Rcpp dependence

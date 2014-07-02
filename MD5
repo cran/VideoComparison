@@ -1,6 +1,6 @@
-7e12df1758751057c00b176d365b45bd *ChangeLog
-1064fb0e5d927a84d29bddb38e498f30 *DESCRIPTION
-9ab1176b2a5bd7895eb22428f56212eb *NAMESPACE
+f545ec3cf67f008bf9641e2f1255ac88 *ChangeLog
+ee463c2f2551b83ca0f6ebbc6e0abb78 *DESCRIPTION
+d93480b47d19d61c9e1eb6269fd52a17 *NAMESPACE
 d41d8cd98f00b204e9800998ecf8427e *NEWS
 5c7eb0341cebd8221d4cb4a3e6412547 *R/Compare2Videos.R
 337038b90e7ff6834ff456b68589d1bf *R/ExtractImgHash.R
@@ -21,7 +21,7 @@ fc2ebf23d49496b6e8a7e2b914e20dbb *data/imagehash2.txt.gz
 7e4682eecf9ab83419f0f22b7f75a3dc *man/ExtractImgHash.Rd
 a34d32c21b4fe455a5fd5af64db07c53 *man/ExtractImgPos.Rd
 f4cb58f75394c90221ed42da9c520c74 *man/ExtractMotion.Rd
-c2d6e8fcf34bab7d786dfea318f617e5 *man/VideoComparison-package.Rd
+6f15f45089bf38c3c64d4f9f1b0389ab *man/VideoComparison-package.Rd
 1e35ceafedd06167bf28d5fea61a2666 *man/VideoComparison.Rd
 5e941dba52b540b6a266d62bf24a986a *man/VideoDistance.Rd
 13b32f32769dff947ee35f62b0397771 *man/VideoMatch.Rd
@@ -36,6 +36,6 @@ a7743a4f2637513f5d9a239893bb53d8 *man/mm.Rd
 9ced4632b421395733a6cf234bad5b94 *man/videomotion2.Rd
 c71a0bbf3e0531b9338628399485d9c9 *src/Makevars
 940c67f75562a978f526770ffe000b0f *src/Makevars.win
-d64f4e5bca5018a34d5e27997fef4c47 *src/VideoDistance.cpp
+75a3254e330fe68f67ac01f083f124bd *src/VideoDistance.cpp
 361d1fb8e1751a28c3a2336172c900e1 *src/hamming_distance.c
 e1878c061a1bcf177fb58791607973cd *src/hamming_distance.h

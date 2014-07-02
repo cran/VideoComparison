@@ -243,5 +243,5 @@ extern "C" SEXP VideoDistance(SEXP vm1, SEXP vm2){
 */
 
   //Thanks to Manuel Castejón for providing us with the easier Rcpp interface 
-  return (wrap( Rcpp::NumericVector::create(distances.dct, distances.mw, distances.rd, distances.str, 0))); 
+  return (wrap( Rcpp::NumericVector::create(distances.dct, distances.mw, 1 - distances.rd, distances.str, 0))); 
 }
