@@ -1,5 +1,5 @@
 ExtractMotion<-function(father,pos=1,
-						url="http://localhost:9200/selected_db/selected_db/_search") {
+		url="http://localhost:9200/selected_db/selected_db/_search") {
   str <- fromJSON ('
     {
     "facets": {},

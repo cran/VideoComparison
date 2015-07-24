@@ -4,7 +4,7 @@
 # We would like to thank Evan Klinger & David Starkweather for their library
 # These functions are not used because not all the phash distance methods were translated into R and the c code is still required 
 ph_hammingdistance2<-function(hashA,hashB){ #hashA & hashB are integer vectors and their elements should be in 0:255 range
-	##José Mª Pérez Ramos: Translated from phash.cpp and using R's vectorized functions
+	##Jose M Perez Ramos: Translated from phash.cpp and using R's vectorized functions
 
 	if(length(hashA)!=length(hashB))
 		return(-1.0)
@@ -30,7 +30,7 @@ ph_hammingdistance2<-function(hashA,hashB){ #hashA & hashB are integer vectors a
 	return(ph_bitcount8(xored)/(8*length(hashA)))
 }
 ph_crosscorr<-function(x_coeffs,y_coeffs){ #x_coeffs and y_coeffs are integer vectors and their elements should be in 0:255 range
-    ##José Mª Pérez Ramos: Using FFT to implement the xcorr function. FFT requires no padding because it is a 'cyclic' xcorr
+    ##Jose M Perez Ramos: Using FFT to implement the xcorr function. FFT requires no padding because it is a 'cyclic' xcorr
 
     if(length(x_coeffs)!=length(y_coeffs))
     	return(-1)

@@ -43,9 +43,9 @@ open 2D curves. Pattern Recogn. Lett. 30, 1-10 (2009)
 \examples{
 %% ~~ simple examples of the most important functions ~~
 #Load json data from txt
-fileName1 = strcat(path.package(package="VideoComparison"),"/data/imagehash1.txt.gz")
+fileName1 = strcat(path.package(package="VideoComparison"),"/extdata/imagehash1.gz")
 json1 = readLines(gzfile(fileName1))
-fileName2 = strcat(path.package(package="VideoComparison"),"/data/imagehash2.txt.gz")
+fileName2 = strcat(path.package(package="VideoComparison"),"/extdata/imagehash2.gz")
 json2 = readLines(gzfile(fileName2))
 
 # Extract data from json

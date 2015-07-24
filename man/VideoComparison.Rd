@@ -9,6 +9,9 @@ For two video segments represented by their own video motion vector
 it is interesting to look for their matching in order to verify
 potential coherence between them happens.
 
+The video motion curves can be derived from the opensource 
+tool called shotdetect \url{http://johmathe.name/shotdetect.html}.
+
 By using an improved algorithm based on the Cui et al paper
 it is implemented the identification of which segment 
 bigger than the requested length, is common to both videos, 
@@ -55,9 +58,9 @@ open 2D curves. Pattern Recogn. Lett. 30, 1-10 (2009)
 %% ~~ simple examples of the most important functions ~~
 
 #load example json from data folder
-fileName1 = strcat(path.package(package="VideoComparison"),"/data/videomotion1.txt.gz")
+fileName1 = strcat(path.package(package="VideoComparison"),"/extdata/videomotion1.gz")
 json1 = readLines(gzfile(fileName1))
-fileName2 = strcat(path.package(package="VideoComparison"),"/data/videomotion2.txt.gz")
+fileName2 = strcat(path.package(package="VideoComparison"),"/extdata/videomotion2.gz")
 json2 = readLines(gzfile(fileName2))
 
 #Extract data from json

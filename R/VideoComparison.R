@@ -18,8 +18,8 @@ VideoComparison<-function(mm,m2,stp=10,nprocesses=0){
 
 
       #############################################################################################################################
-      # Author (Optimization: FFT): José Mª Pérez Ramos (josem.perez.ramos@gmail.com) (Working for ASASEC)
-      # Author (Optimization: N^3, parallelization): José Mª Pérez Ramos (josem.perez.ramos@gmail.com) (Working for ASASEC)
+      # Author (Optimization: FFT): Jose M Perez Ramos (josem.perez.ramos@gmail.com) (Working for ASASEC)
+      # Author (Optimization: N^3, parallelization): Jose M Perez Ramos (josem.perez.ramos@gmail.com) (Working for ASASEC)
       # Date: 2013.11.15
       # Complexity: O(N^3)
 
@@ -209,8 +209,6 @@ VideoComparison<-function(mm,m2,stp=10,nprocesses=0){
 
       ## GO PARALLEL! #############################################################################################################
       if (nprocesses!=1){
-        if(!require("parallel"))
-          nprocesses = 1;
       
         if(nprocesses < 1){ ## I have the power to schedule!
           cores = parallel::detectCores();

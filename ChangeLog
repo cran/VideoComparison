@@ -1,3 +1,8 @@
+v0.13.- 2015.05.22
+		Fixing minor mistakes because of policy settings
+v0.12.- 2015.05.21
+		Fixing the reference to the parallel package
+			Added to DESCRIPTION and NAMESPACE
 v0.10.- 2014.07.02
 		VideoDistance.cpp
 			FIXED Radial distance inversion fixed

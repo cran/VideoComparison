@@ -13,8 +13,8 @@ Comparison between videos by their descritors
 \tabular{ll}{
 Package: \tab VideoCompare\cr
 Type: \tab Package\cr
-Version: \tab 0.10\cr
-Date: \tab 2014-07-02\cr
+Version: \tab 0.13\cr
+Date: \tab 2015-05-22\cr
 License: \tab Under GPL 2.0+ \cr
 Description: Functions to compare video motion vector and image hashes
 }

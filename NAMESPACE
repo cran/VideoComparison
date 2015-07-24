@@ -1,3 +1,7 @@
 useDynLib(VideoComparison)
-import(RJSONIO,Rcpp,RCurl,pracma,zoo)
+import(zoo,Rcpp,pracma,parallel)
+importFrom("RCurl",getURL)
+importFrom("RJSONIO",fromJSON,toJSON)
+importFrom("utils",tail)
+importFrom("stats",approx,fft)
 export(VideoComparison,VideoDistance,ExtractMotion,ExtractImgPos,ExtractImgHash,VideoSearch,VideoMatch,Compare2Videos)
